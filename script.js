@@ -8,6 +8,8 @@ let arr = [
 
 function PrintDeveloperbyMap() {
   //Write your code here , just console.log
+  let developer = arr.filter((item) => item.profession === "developer");
+  console.log(developer.map((item) => item.name));
 }
 
 function PrintDeveloperbyForEach() {
@@ -25,3 +27,5 @@ function removeAdmin() {
 function concatenateArray() {
   //Write your code here, just console.log
 }
+
+PrintDeveloperbyMap(arr);
