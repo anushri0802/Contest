@@ -51,5 +51,3 @@ function concatenateArray() {
   ];
   console.log(arr.concat(arr2));
 }
-
-concatenateArray(arr);
