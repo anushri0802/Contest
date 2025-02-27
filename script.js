@@ -6,10 +6,22 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
-function PrintDeveloperbyMap() {
+// function PrintDeveloperbyMap() {
+//   //Write your code here , just console.log
+//   let developer = arr.filter((item) => item.profession === "developer");
+//   let developerName = developer.map((item) => item.name);  
+//   console.log(developerName);
+// }
+
+
+function PrintDeveloperbyMap() 
+{
   //Write your code here , just console.log
-  let developer = arr.filter((item) => item.profession === "developer");
-  console.log(developer.map((item) => item.name));
+  let developer = arr.map((item) => {
+    if (item.profession === "developer") {
+      console.log(item.name);
+    }
+  });  
 }
 
 function PrintDeveloperbyForEach() {
@@ -51,3 +63,5 @@ function concatenateArray() {
   ];
   console.log(arr.concat(arr2));
 }
+
+PrintDeveloperbyMap(arr);
