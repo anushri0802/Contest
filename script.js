@@ -23,6 +23,8 @@ function PrintDeveloperbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
+  arr.push({ id: 4, name: "susan", age: "20", profession: "intern" });
+  console.log(arr);
 }
 
 function removeAdmin() {
@@ -33,4 +35,4 @@ function concatenateArray() {
   //Write your code here, just console.log
 }
 
-PrintDeveloperbyMap(arr);
+addData(arr);
