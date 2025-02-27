@@ -35,7 +35,21 @@ function removeAdmin() {
 
 function concatenateArray() {
   //Write your code here, just console.log
+  let arr2 = [
+    {
+      id: 11,
+      subject: "English",
+    },
+    {
+      id: 12,
+      subject: "Maths",
+    },
+    {
+      id: 13,
+      subject: "Science",
+    }
+  ];
+  console.log(arr.concat(arr2));
 }
 
-addData(arr);
-removeAdmin(arr);
+concatenateArray(arr);
