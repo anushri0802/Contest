@@ -14,6 +14,11 @@ function PrintDeveloperbyMap() {
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
+  arr.forEach((item) => {
+    if (item.profession === "developer") {
+      console.log(item.name);
+    }
+  });
 }
 
 function addData() {
