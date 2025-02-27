@@ -6,16 +6,7 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
-// function PrintDeveloperbyMap() {
-//   //Write your code here , just console.log
-//   let developer = arr.filter((item) => item.profession === "developer");
-//   let developerName = developer.map((item) => item.name);  
-//   console.log(developerName);
-// }
-
-
-function PrintDeveloperbyMap() 
-{
+function PrintDeveloperbyMap() {
   //Write your code here , just console.log
   let developer = arr.map((item) => {
     if (item.profession === "developer") {
@@ -49,19 +40,18 @@ function concatenateArray() {
   //Write your code here, just console.log
   let arr2 = [
     {
-      id: 11,
+      id: 21,
       subject: "English",
     },
     {
-      id: 12,
+      id: 22,
       subject: "Maths",
     },
     {
-      id: 13,
+      id: 23,
       subject: "Science",
     }
   ];
   console.log(arr.concat(arr2));
 }
 
-PrintDeveloperbyMap(arr);
